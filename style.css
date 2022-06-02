@@ -1,0 +1,90 @@
+/* 
+> Контент занимает 70% ширины страницы.
+> Контент выровнен по середине.
+> Заголовки всех уровней выполнены шрифтом без засечек.
+> Верхний отступ заголовков установлен больше нижнего (например, 1.5em), 
+  чтобы соблюсти правило внутреннего и внешнего.
+> Заголовки первого уровня имеют размер 32px.
+> Таблицы имеют непрерывные границы чёрного цвета толщиной 1px.
+> Подписи под картинками выполены курсивом.
+> Картинки обтекаются текстом. Картинки справа, текст слева.
+*/
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(244, 248, 248, 0.144);
+}
+
+.houston-header {
+    width: 100%;
+    height: 400px;
+}
+
+div {
+    border: 1px solid black;
+    background-color: #fff8dc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+p {
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+ul {
+    font-family: verdana, sans-serif;
+    margin: 1.5em 20px 0 20px;
+}
+
+.h1 {
+    font-size: 32px;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+table,
+th,
+tr,
+td {
+  margin: 5px 20px;
+  border: 1px solid black;
+}
+
+caption {
+    font-weight: 600;
+}
+
+.econom-table {
+    width: 90%;
+}
+
+figure {
+    width: 13em;
+    float: right;
+}
+
+figure>img {
+    width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.dd {
+    margin-left: 600;
+}
+    
